@@ -6,7 +6,7 @@ export function Checkout() {
   const stripe = useStripe()
 
   const [product, setProduct] = useState({
-    name: 'Hat',
+    name: 'DogHat',
     description: 'Pug hat. A hat your pug will love.',
     images: [
       'https://images.unsplash.com/photo-1517423568366-8b83523034fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
