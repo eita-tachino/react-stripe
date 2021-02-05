@@ -1,4 +1,4 @@
 .env
-/lib
+# /lib
 service-account.json
 /node_modules
