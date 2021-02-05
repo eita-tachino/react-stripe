@@ -84,7 +84,33 @@ function App() {
 function Home() {
   return (
     <>
-      <div class='well'>
+      <div className='well'>
+        <h2>Stripe React + Node.js Live Demo</h2>
+      </div>
+
+      <div className='embed-responsive embed-responsive-16by9 vid'>
+        <iframe
+          title='English-Reading-01'
+          src='https://www.loom.com/embed/601c89da3b5a42e08d38e9aec3c7dcf7'
+          // width="640"
+          // height="360"
+          frameBorder='0'
+          allow='autoplay; fullscreen'
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className='embed-responsive embed-responsive-16by9 vid'>
+        <iframe
+          title='English-Reading-02'
+          src='https://www.loom.com/embed/e048b6b3805d4f3da38ccb09c7f35614'
+          // width="640"
+          // height="360"
+          frameBorder='0'
+          allow='autoplay; fullscreen'
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className='well'>
         <h2>Running in Test Mode</h2>
         <p>
           This demo is running in Stripe test mode, so feel free to submit
