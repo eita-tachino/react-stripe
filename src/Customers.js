@@ -124,7 +124,7 @@ function SaveCard(props) {
 
           <hr />
 
-          {/* <CardElement /> */}
+          <CardElement />
           <button className='btn btn-success' type='submit'>
             Attach
           </button>
